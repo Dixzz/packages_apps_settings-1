@@ -19,11 +19,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
+
+        <!-- ElpidaOs logo -->
+       <LinearLayout
+    	   android:gravity="center"
+    	   android:layout_width="match_parent"
+    	   android:layout_height="wrap_content"
+           android:selectable="false">
+            <ImageView
+    	   android:layout_width="625dp"
+    	   android:layout_height="100dp"
+    	   android:src="@drawable/ic_elpida_logo"
+    	   android:adjustViewBounds="true"
+    	   android:scaleType="centerInside"
+    	   android:tint="?android:attr/colorAccent" />
+         </LinearLayout>
 
         <TextView
             style="@style/device_info_dialog_label"
