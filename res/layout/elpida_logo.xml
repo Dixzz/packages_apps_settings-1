@@ -17,7 +17,7 @@
  <ImageView
         android:layout_width="625dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_elpida_logo"
+        android:src="@drawable/about_elpida_logo"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
         android:layout_marginTop="10dp"

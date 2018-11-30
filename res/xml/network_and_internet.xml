@@ -54,7 +54,7 @@
         android:title="@string/network_traffic_state_title"
         android:icon="@drawable/ic_network_traffic"
         android:order="-10"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.android.settings.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"

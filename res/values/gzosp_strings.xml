@@ -87,6 +87,4 @@
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Show network traffic in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Network traffic autohide (KB/s)</string>
-
->>>>>>> 5920e71892... settings: Status network traffic [2/2]
 </resources>
