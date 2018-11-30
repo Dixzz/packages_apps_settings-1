@@ -51,6 +51,19 @@
             android:background="?android:attr/selectableItemBackground"
             android:textColor="?android:attr/colorAccent"/>
 
+         <!-- Elpida-OS version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/elpida_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/elpida_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/elpida_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/baseband_version_label"
