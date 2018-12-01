@@ -54,8 +54,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toolbar;
 
-import com.aicp.gear.util.AicpUtils;
-
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.Settings.WifiSettingsActivity;
 import com.android.settings.applications.manageapplications.ManageApplications;
@@ -712,11 +710,6 @@ public class SettingsActivity extends SettingsDrawerActivity
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
                         Settings.WifiDisplaySettingsActivity.class.getName()),
                 WifiDisplaySettings.isAvailable(this), isAdmin)
-                || somethingChanged;
-
-        boolean aicpExtrasSupported = AicpUtils.isPackageEnabled("com.aicp.extras", pm);
-        somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
-                Settings.StartAeActivity.class.getName()), aicpExtrasSupported, isAdmin)
                 || somethingChanged;
 
         // Enable/disable the Me Card page.
