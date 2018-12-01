@@ -41,4 +41,8 @@
     <string name="elpida_version">Elpida-OS Build</string>
     <string name="elpida_version_default">Unknown</string>
 
+    <!-- Extra Settings -->
+    <string name="nitrogen_settings_title">Plutus</string>
+    <string name="nitrogen_settings_summary">Additional settings</string>
+
 </resources>

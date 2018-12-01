@@ -137,6 +137,8 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.extra.settings.ExtraSettings;
+
 public class SettingsGateway {
 
     /**
@@ -261,6 +263,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
+            ExtraSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -299,5 +302,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+            Settings.ExtraSettingsActivity.class.getName(),
     };
 }
