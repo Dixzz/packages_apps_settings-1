@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:selectable="false">
 	<ImageView
-        android:layout_width="625px"
-        android:layout_height="100px"
+        android:layout_width="700px"
+        android:layout_height="420px"
         android:src="@drawable/about_elpida_logo"
         android:adjustViewBounds="true"
         android:scaleType="centerInside" />
