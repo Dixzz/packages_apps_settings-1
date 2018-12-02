@@ -434,7 +434,8 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
 
         public SimEnablerPreference(Context context, SubscriptionInfo sir, int slotId) {
             super(context, null, com.android.internal.R.attr.checkBoxPreferenceStyle, sir, slotId);
-            setWidgetLayoutResource(R.layout.du_sim_switch);
+
+            setWidgetLayoutResource(R.layout.elpida_sim_switch);
         }
 
         private void sendMessage(int event, Handler handler, int delay) {
