@@ -31,12 +31,11 @@
         android:layout_height="wrap_content"
         android:selectable="false">
 <ImageView
-        android:layout_width="500px"
-        android:layout_height="500px"
-        android:src="@drawable/ic_elpida_logo"
+        android:layout_width="800px"
+        android:layout_height="400px"
+        android:src="@drawable/about_elpida_logo"
         android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-	android:tint="?android:attr/colorAccent" />
+        android:scaleType="centerInside" />
 </LinearLayout>
 
          <!-- Elpida-OS version -->

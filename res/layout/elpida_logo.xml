@@ -15,11 +15,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
  <ImageView
-        android:layout_width="500dp"
-        android:layout_height="500dp"
-        android:src="@drawable/ic_elpida_logo"
+        android:layout_width="800dp"
+        android:layout_height="400dp"
+        android:src="@drawable/about_elpida_logo"
         android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:layout_marginTop="10dp"
-        android:tint="?android:attr/colorAccent" />
+        android:scaleType="centerInside" />
 </LinearLayout>
