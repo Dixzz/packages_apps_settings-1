@@ -25,6 +25,32 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
+<LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectable="false">
+<ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:src="@drawable/about_elpida_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+</LinearLayout>
+
+         <!-- Elpida-OS version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/elpida_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/elpida_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/elpida_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/firmware_version_label"
@@ -50,19 +76,6 @@
             android:layout_height="wrap_content"
             android:background="?android:attr/selectableItemBackground"
             android:textColor="?android:attr/colorAccent"/>
-
-         <!-- Elpida-OS version -->
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:id="@+id/elpida_version_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/elpida_version"/>
-        <TextView
-            style="@style/device_info_dialog_value"
-            android:id="@+id/elpida_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
 
         <TextView
             style="@style/device_info_dialog_label"
